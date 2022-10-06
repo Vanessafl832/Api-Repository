@@ -31,11 +31,11 @@ public class AlunoService {
 		
 		Aluno alunoExistenteNoBanco = getAlunoById(id);
 
-		alunoExistenteNoBanco.setBairro(aluno.getBairro()); //Centro
-		alunoExistenteNoBanco.setCidade(aluno.getCidade()); //Petropolis
-		alunoExistenteNoBanco.setComplemento(aluno.getComplemento()); //SN
-		alunoExistenteNoBanco.setCpf(aluno.getCpf()); //123456789
-		alunoExistenteNoBanco.setDataNascimento(aluno.getDataNascimento()); //...
+		alunoExistenteNoBanco.setBairro(aluno.getBairro()); 
+		alunoExistenteNoBanco.setCidade(aluno.getCidade()); 
+		alunoExistenteNoBanco.setComplemento(aluno.getComplemento()); 
+		alunoExistenteNoBanco.setCpf(aluno.getCpf()); 
+		alunoExistenteNoBanco.setDataNascimento(aluno.getDataNascimento()); 
 		alunoExistenteNoBanco.setLogradouro(aluno.getLogradouro());
 		alunoExistenteNoBanco.setNome(aluno.getNome());
 		alunoExistenteNoBanco.setNumeroLogradouro(aluno.getNumeroLogradouro());
